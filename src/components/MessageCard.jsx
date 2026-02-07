@@ -13,19 +13,19 @@ function MessageCard({ isActive }) {
   const curtainHintRef = useRef(null);
   const messageContentRef = useRef(null);
 
-  const message = `[Recipient Name],
+  const message = `Safa Begum,
 
-Your personalized birthday message goes here.
+Happy Birthday, my dearest BEGUM!💖
 
-You can write multiple paragraphs to express your feelings,
-share memories, and make this special day even more memorable.
+Every moment with you feels like a blessing, and today, on your special day, I want the world to celebrate the incredible person you are. Your smile lights up my life, your love fills my heart, and your presence makes every day brighter.
 
-This template supports multiple lines and formatting,
-so feel free to customize it completely to fit your style.
+Safa, you are not just my wifuu you are my best friend, my confidante, and my greatest inspiration. I am endlessly grateful for you, for your kindness, your strength, and the beautiful soul that you are.
 
-Happy Birthday! 🎉
+May this year bring you all the happiness, love, and laughter that you so deeply deserve. I promise to stand by you, cherish you, and make every day as special as you make my life.
 
-— [Your Name]`;
+Happy Birthday, my love. Forever and always, it’s you and me. ❤️
+
+— Your Man,Ali Atif`;
 
   // Handle page transitions
   useEffect(() => {
