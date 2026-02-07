@@ -96,11 +96,11 @@ function App() {
           <h1 id="heroTitle">
             {birthdayReached ? (
               <>
-                Happy Birthday <span className="highlight">[My babygirl]</span> 🎂
+                Happy Birthday <span className="highlight">My babygirl</span> 🎂
               </>
             ) : (
               <>
-                Counting down to <span className="highlight">[My babygirl]'s</span>{" "}
+                Counting down to <span className="highlight">My babygirl's</span>{" "}
                 special day 🎂
               </>
             )}
@@ -170,7 +170,7 @@ function App() {
         </button>
         <Gallery isActive={currentPage === 4} />
         <section className="final">
-          <h2 className="final-message">💖 Forever Yours — [Otso] 💖</h2>
+          <h2 className="final-message">💖 Forever Yours — Otso 💖</h2>
           <p className="final-subtitle">MERA PYAARA PHOOL ✨</p>
         </section>
       </div>
